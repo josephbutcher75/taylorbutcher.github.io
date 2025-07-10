@@ -1,0 +1,93 @@
+body {
+  font-family: "Century Gothic", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #000000;
+  line-height: 1.6;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.hero {
+  background-image: url('background.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 2rem;
+  text-align: center;
+  color: #fff;
+  width: 100%;
+}
+
+h1, h2 {
+  font-family: "Bebas Neue", "Century Gothic", Arial, sans-serif;
+  letter-spacing: 0.5px;
+  margin: 0.5rem 0;
+}
+
+.tagline {
+  font-size: 1.1rem;
+  color: #D1D3D4;
+  font-weight: normal;
+}
+
+.kaufman {
+  font-size: 0.95rem;
+  margin-top: 0.5rem;
+}
+
+main {
+  padding: 1.5rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+section {
+  margin-bottom: 2.5rem;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul li {
+  margin: 0.5rem 0;
+  font-size: 1.05rem;
+}
+
+a.button {
+  display: inline-block;
+  padding: 12px 24px;
+  background: #B24119;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+a.button:hover {
+  background: #922e10;
+}
+
+footer {
+  background-color: #D1D3D4;
+  color: #000;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.85rem;
+}
